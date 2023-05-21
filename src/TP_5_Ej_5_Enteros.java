@@ -1,4 +1,4 @@
-//Hacer un programa que dado un arreglo de caracteres de tamaño 10 que se encuentra cargado, invierta el orden del contenido.
+//Hacer un programa que dado un arreglo de enteros de tamaño 10 que se encuentra cargado, invierta el orden del contenido.
 // Este intercambio no se debe realizar de manera explícita,
 // hay que hacer un método que incluya una iteración de intercambio.
 import java.util.Random;
@@ -25,7 +25,7 @@ public class TP_5_Ej_5_Enteros {
             arr[(MAX-1)-i]=arr[0+i];
             arr[0+i]=aux;
         }
-        System.out.println("El arreglo invertido es: ");
+        System.out.println("\n"+"El arreglo invertido es: ");
         imprimir_arreglo(arr);
     }
     public static void imprimir_arreglo(int []arr) {
