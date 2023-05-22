@@ -32,7 +32,6 @@ public class TP_5_Ej_7_Corrimiento_derecha {
         return pos;
     }
     public static void realizar_corrimiento_derecha(int []arr, int pos){
-        System.out.println(pos);
         int indice=MAX-1;
         while(indice>pos){
             arr[indice]=arr[indice-1];
