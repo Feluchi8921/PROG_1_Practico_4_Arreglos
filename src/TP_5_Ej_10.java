@@ -37,7 +37,7 @@ public class TP_5_Ej_10 {
         int numero = 0;
         BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         try {
-            System.out.println("Ingrese un numero entero");
+            System.out.println("\n"+"Ingrese un numero entero");
             numero = Integer.valueOf(entrada.readLine());
         } catch (Exception exc) {
             System.out.println(exc);
