@@ -1,10 +1,9 @@
 import java.util.Random;
 public class cargar_arreglo_sec_char {
     public static final int MAX = 40, MAXVALOR = 9, MINVALOR = 1;
-    public static final double probabilidad_letra = 0.4, probabilidad_numero = 0.4;
+    public static final double probabilidad_letra = 0.4;
     public static void main(String[] args) {
         char [] arrchar= new char[MAX];
-        int [] arrint = new int[MAX];
         cargar_arreglo_aleatorio_secuencias_char(arrchar);
         imprimir_arreglo_secuencias_char(arrchar);
     }
