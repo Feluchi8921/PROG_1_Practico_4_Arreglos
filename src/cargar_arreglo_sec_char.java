@@ -22,8 +22,9 @@ public class cargar_arreglo_sec_char {
         }
     }
     public static void imprimir_arreglo_secuencias_char(char []arr){
-    for(int i=0; i<MAX; i++){
-        System.out.print(arr[i]+"|");
-    }
+        for(int i=0; i<MAX; i++){
+            System.out.print(arr[i]+"|");
+        }
+        System.out.print("\n");
     }
 }
