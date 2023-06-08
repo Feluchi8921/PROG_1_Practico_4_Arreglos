@@ -7,6 +7,7 @@ public class cargar_arreglo_sec_int {
         cargar_arreglo_aleatorio_secuencias_int(arrint);
         imprimir_arreglo_secuencias_int(arrint);
     }
+
     public static void cargar_arreglo_aleatorio_secuencias_int(int [] arr){
         Random r = new Random();
         arr[0] = 0;
